@@ -9,9 +9,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "": "app/"
-        },
         "files": [
             "./helper/function/accent.php",
             "./helper/function/char.php",
