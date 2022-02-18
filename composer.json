@@ -1,0 +1,29 @@
+{
+    "name": "elegance/php-extend",
+    "description": "Conjunto de helpers facilitadoras para desenvolvimento PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "app/"
+        },
+        "files": [
+            "./helper/function/accent.php",
+            "./helper/function/char.php",
+            "./helper/function/dbug.php",
+            "./helper/function/ensure.php",
+            "./helper/function/is.php",
+            "./helper/function/merge.php",
+            "./helper/function/num.php",
+            "./helper/function/path.php",
+            "./helper/function/str.php",
+            "./helper/function/toCase.php",
+            "./helper/function/valueIn.php"
+        ]
+    }
+}
